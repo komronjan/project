@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    border: 1px solid black;
+    /* width: 100%; */
+    height: 100vh;
+    background-image: url(./hero-cover.5.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}   
+.main2{
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 100vh;
+}
+.novbar{
+    display: flex;
+   justify-content: space-around;
+
+}
+
+.lol{
+    margin-top:30px ;
+    color: white;
+  
+} 
+.bar{
+    margin-top: 30px;
+    color: white;
+    gap: 10%;
+    display: flex;
+}
+.uc button{
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight:bold ;
+    color: white;
+    background-color:#23A6F0 ;
+    height: 7vh;
+    width: 170%;
+}
+.obw{
+    margin-top: 20vh;
+    justify-content: space-around   ;
+    display: flex;
+}
+.tex h1{
+    font-size: 300%;
+    font-weight: bold;
+    color: white;
+}
+.tex{
+    width: 20%;
+  color: white;
+}
+.input{
+    border: 0;
+    border-radius:20px ;
+    width:20%;
+    background-color: white;
+
+}
+input, select{
+    margin-top: 20px;
+  border-radius: 10px;
+}
+input{
+    border: 1px solid;
+    width: 80%;
+    margin-left: 20px;
+    height: 5vh;
+}
+fieldset h3{
+    margin-left: 30px;
+}
+fieldset label{
+    font-weight: bold;
+    margin-left: 20px;
+}
+fieldset{
+    height: 70vh;
+}
+select{
+
+    margin-left: 20px;
+    height: 5vh;
+    width: 81%;
+}
+.tex p{
+margin-top: 30px;
+}
+.input button{
+    margin-top: 30px;
+    width: 75%;
+    margin-left: 35px;
+    height: 7vh;
+}
+.but{
+    display: flex;
+}
+.but button{
+    border-radius: 20px;
+    margin-top: 50px;
+    gap: 10%;
+    display: flex;
+    width:50%;
+    height: 7vh;
+}
+.fir2 p{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.fir p{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.fir{
+    background-color: #23A6F0;
+}
+.input button{
+    border: 0;
+    color: white;
+    background-color: #23A6F0;
+    border-radius: 10px;
+  margin-top: 10px;
+}
+fieldset{
+
+    border-radius: 20px;
+}
+.text1{
+    margin-left: 80vh;
+    text-align: center;
+    width: 370px;
+}
+.text1 h1{
+    margin-top: 10vh;   
+}
+.text1 p{
+    color: #959595;
+    margin-top: 3vh;
+}
+.cart{
+    margin-top: 10vh;
+    justify-content:space-evenly;
+    display: flex;
+}
+.cartop i{
+    font-size: 200%;
+   
+    margin-top: 10px ;
+    color: white;
+        
+}
+
+.cartop {
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    color: white;
+  background-color: #8EC2F2;
+}
+.cartex{
+    height: 30vh;
+    border-radius: 5px;
+    border: 2px solid#8EC2F2;
+}
+.cartex p{
+    margin-top: 18px;
+}
+.ioi{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.second i{
+  color: #23A6F0;
+}
+.ioi p{
+    color: #737373;
+}
+
+.komron{
+    color: #737373;
+    margin-top: 10vh;
+    margin-left: 85vh;
+}
